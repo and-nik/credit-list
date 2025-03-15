@@ -1,17 +1,22 @@
-# credit-list
+# Credit list
 
-A new Flutter project.
+A Flutter project for Myfin.
 
 ## Getting Started
+To run this project:
+- clone repo from github
+- flutter pub get
+- flutter run
 
-This project is a starting point for a Flutter application.
+## Architecture
+This project was written in Clean architecture.
+This is a lot for test project. But with this architecture 
+u can easily upgrade project and develop new features.
 
-A few resources to get you started if this is your first Flutter project:
+## Technologies
+- BloC
+- AutoRouter
+- GetIt
+- Dio (No server was created for this project. It's mock usage of Dio)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
->>>>>>> e45ab77 (Initialized git project. Connected local project to remote to github.)
+Enjoy! :)
