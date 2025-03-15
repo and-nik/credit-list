@@ -1,0 +1,164 @@
+{
+  "result": [
+    {
+      "id": "1",
+      "name": "Standard Loan",
+      "bankName": "Bank of America",
+      "interestRate": 5.5,
+      "maxAmount": 50000,
+      "maxTerm": 60
+    },
+    {
+      "id": "2",
+      "name": "Premium Mortgage",
+      "bankName": "Wells Fargo",
+      "interestRate": 4.2,
+      "maxAmount": 250000,
+      "maxTerm": 240
+    },
+    {
+      "id": "3",
+      "name": "Auto Financing",
+      "bankName": "Chase Bank",
+      "interestRate": 3.9,
+      "maxAmount": 75000,
+      "maxTerm": 72
+    },
+    {
+      "id": "4",
+      "name": "Business Expansion Loan",
+      "bankName": "Citibank",
+      "interestRate": 6.8,
+      "maxAmount": 150000,
+      "maxTerm": 120
+    },
+    {
+      "id": "5",
+      "name": "Student Loan",
+      "bankName": "Discover Bank",
+      "interestRate": 4.5,
+      "maxAmount": 100000,
+      "maxTerm": 180
+    },
+    {
+      "id": "6",
+      "name": "Personal Loan",
+      "bankName": "Capital One",
+      "interestRate": 7.1,
+      "maxAmount": 30000,
+      "maxTerm": 48
+    },
+    {
+      "id": "7",
+      "name": "Home Improvement Loan",
+      "bankName": "U.S. Bank",
+      "interestRate": 5.9,
+      "maxAmount": 200000,
+      "maxTerm": 180
+    },
+    {
+      "id": "8",
+      "name": "Debt Consolidation Loan",
+      "bankName": "PNC Bank",
+      "interestRate": 6.3,
+      "maxAmount": 50000,
+      "maxTerm": 84
+    },
+    {
+      "id": "9",
+      "name": "Medical Loan",
+      "bankName": "Regions Bank",
+      "interestRate": 4.8,
+      "maxAmount": 25000,
+      "maxTerm": 60
+    },
+    {
+      "id": "10",
+      "name": "Vacation Loan",
+      "bankName": "Fifth Third Bank",
+      "interestRate": 8.5,
+      "maxAmount": 15000,
+      "maxTerm": 36
+    },
+    {
+      "id": "11",
+      "name": "Green Energy Loan",
+      "bankName": "TD Bank",
+      "interestRate": 5.2,
+      "maxAmount": 100000,
+      "maxTerm": 120
+    },
+    {
+      "id": "12",
+      "name": "Wedding Loan",
+      "bankName": "BBVA",
+      "interestRate": 7.0,
+      "maxAmount": 50000,
+      "maxTerm": 60
+    },
+    {
+      "id": "13",
+      "name": "Refinancing Loan",
+      "bankName": "HSBC",
+      "interestRate": 3.5,
+      "maxAmount": 200000,
+      "maxTerm": 240
+    },
+    {
+      "id": "14",
+      "name": "Small Business Loan",
+      "bankName": "Santander Bank",
+      "interestRate": 6.7,
+      "maxAmount": 300000,
+      "maxTerm": 144
+    },
+    {
+      "id": "15",
+      "name": "Freelancer Loan",
+      "bankName": "Ally Bank",
+      "interestRate": 6.2,
+      "maxAmount": 40000,
+      "maxTerm": 60
+    },
+    {
+      "id": "16",
+      "name": "Luxury Car Loan",
+      "bankName": "M&T Bank",
+      "interestRate": 4.1,
+      "maxAmount": 200000,
+      "maxTerm": 96
+    },
+    {
+      "id": "17",
+      "name": "Tech Startup Loan",
+      "bankName": "Silicon Valley Bank",
+      "interestRate": 5.9,
+      "maxAmount": 500000,
+      "maxTerm": 120
+    },
+    {
+      "id": "18",
+      "name": "Agricultural Loan",
+      "bankName": "AgFirst Bank",
+      "interestRate": 4.3,
+      "maxAmount": 350000,
+      "maxTerm": 180
+    },
+    {
+      "id": "19",
+      "name": "Education Loan",
+      "bankName": "Navient",
+      "interestRate": 3.8,
+      "maxAmount": 80000,
+      "maxTerm": 240
+    },
+    {
+      "id": "20",
+      "name": "Emergency Loan",
+      "bankName": "SunTrust",
+      "interestRate": 9.5,
+      "maxAmount": 10000,
+      "maxTerm": 24
+    }
+  ]
+}
