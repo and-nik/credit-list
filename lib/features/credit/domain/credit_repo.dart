@@ -21,13 +21,13 @@ class CreditRepo implements ICreditRepo {
   Future<Result<List<CreditModel>>> loadCredits() async {
     final res = await _apiDataSource.loadCredits();
     return res.fold(
-          (exception) => Failure(exception),
-          (value) {
-            return Success(value
-                .map((e) => CreditModel.fromApi(e))
-                .toList(),
-            );
-          },
+      onFailure: (exception) => Failure(exception),
+      onSuccess: (value) {
+        return Success(value
+            .map((e) => CreditModel.fromApi(e))
+            .toList(),
+        );
+      },
     );
   }
 
