@@ -38,13 +38,13 @@ class CreditListCubit extends Cubit<CreditListState> {
   Future loadCredits() async {
     final res = await _creditRepo.loadCredits();
     res.fold(
-          (exception) {
-            _error = exception;
-          },
-          (value) {
-            credits = value;
-            _initialCredits = [...credits];
-          },
+      onFailure: (exception) {
+        _error = exception;
+      },
+      onSuccess: (value) {
+        credits = value;
+        _initialCredits = [...credits];
+      },
     );
     _isLoad = false;
     updateView();
