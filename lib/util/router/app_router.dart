@@ -4,7 +4,6 @@ import 'package:flutter/cupertino.dart';
 
 import '../../features/credit/models/credit_model.dart';
 import '../../features/credit/presentation/credit/credit_screen.dart';
-import '../../features/entry/presentation/entry_screen.dart';
 
 part 'app_router.gr.dart';
 

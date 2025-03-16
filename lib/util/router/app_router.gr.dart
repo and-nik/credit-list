@@ -21,7 +21,7 @@ class CreditListRoute extends PageRouteInfo<void> {
   static PageInfo page = PageInfo(
     name,
     builder: (data) {
-      return const CreditListScreen();
+      return WrappedRoute(child: const CreditListScreen());
     },
   );
 }
@@ -63,20 +63,4 @@ class CreditRouteArgs {
   String toString() {
     return 'CreditRouteArgs{key: $key, credit: $credit}';
   }
-}
-
-/// generated route for
-/// [EntryScreen]
-class EntryRoute extends PageRouteInfo<void> {
-  const EntryRoute({List<PageRouteInfo>? children})
-    : super(EntryRoute.name, initialChildren: children);
-
-  static const String name = 'EntryRoute';
-
-  static PageInfo page = PageInfo(
-    name,
-    builder: (data) {
-      return const EntryScreen();
-    },
-  );
 }
